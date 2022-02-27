@@ -110,11 +110,11 @@ let someNum = myFavoriteNumbers[4]
 
 //Code Here
 
-if(myFavoriteNumbers.lenght < 7){
-  console.log('There are not enough elements in this array.')
-} else {
-  someNum = myFavoriteNumbers[6]
-}
+// if(myFavoriteNumbers.lenght < 7){
+//   console.log('There are not enough elements in this array.')
+// } else {
+//   someNum = myFavoriteNumbers[6]
+// }
 
 
 ////////// PROBLEM 8 //////////
@@ -127,6 +127,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 //Code Here
 
+for(let i = 0; i < listOfNumbers.length; i++){
+  if(listOfNumbers[i] % 3 == 0){
+    console.log(`${listOfNumbers[i]} is divisible by 3`)
+  }
+}
 
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
